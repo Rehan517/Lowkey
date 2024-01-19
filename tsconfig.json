@@ -17,6 +17,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "lowkey-sanity/schemas/schema.js", "lowkey-sanity/schemas/index.js", "lowkey-sanity/schemas/blockContent.js", "lowkey-sanity/schemas/category.js"],
   "exclude": ["node_modules"]
 }
