@@ -34,7 +34,7 @@ export default function Home({categories, products}: Props) {
       
       <section className=''>
         <div className='space-y-10 my-10'>
-          <h1 className="text-center text-4xl font-medium tracking-wide text-black md:text-5xl ">Collections</h1>
+          <h1 className="text-center text-4xl font-bold tracking-wide text-black md:text-5xl ">Collections</h1>
         
         <Tab.Group>
           <Tab.List className="flex justify-center">
@@ -55,7 +55,7 @@ export default function Home({categories, products}: Props) {
 
             }
           </Tab.List>
-          <Tab.Panels className="mx-auto max-w-fit pb-24 sm:px-4">
+          <Tab.Panels className="mx-auto max-w-fit sm:px-4">
               <Tab.Panel className="tabPanel">{showProducts(0)}</Tab.Panel>
               <Tab.Panel className="tabPanel">{showProducts(1)}</Tab.Panel>
               <Tab.Panel className="tabPanel">{showProducts(2)}</Tab.Panel>

@@ -22,7 +22,7 @@ function Product({ product }: Props) {
                 </Link>
             </div>
 
-            <div className='space-y-2 text-xl text-white hover:text-red-700 md:text-2xl lg:text-3xl font-bold relative left-6 bottom-8 z-40'>
+            <div className='space-y-2 text-2xl text-white hover:text-red-700 md:text-2xl lg:text-3xl font-bold relative left-6 bottom-8 z-40'>
                 <p>{product.title}</p>
             </div>
 
