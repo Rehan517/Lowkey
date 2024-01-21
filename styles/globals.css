@@ -5,6 +5,6 @@
 
 @layer components{
     .tabPanel{
-        @apply grid grid-cols-1 gap-1 lg:gap-6 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3;
+        @apply grid grid-cols-2 gap-3 lg:gap-6 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3;
       }
 }
