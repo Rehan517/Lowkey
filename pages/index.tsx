@@ -55,7 +55,7 @@ export default function Home({categories, products}: Props) {
 
             }
           </Tab.List>
-          <Tab.Panels className="mx-auto max-w-fit px-4">
+          <Tab.Panels className="mx-auto max-w-[1450px] px-4">
               <Tab.Panel className="tabPanel">{showProducts(0)}</Tab.Panel>
               <Tab.Panel className="tabPanel">{showProducts(1)}</Tab.Panel>
               <Tab.Panel className="tabPanel">{showProducts(2)}</Tab.Panel>
